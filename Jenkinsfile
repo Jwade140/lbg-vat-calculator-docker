@@ -1,7 +1,7 @@
 pipeline{
  environment {
  registry = "jwade06/calc"
-        registryCredentials = "docker_hub_id"
+        registryCredentials = "dockerhub_id"
         dockerImage = ""
     }
     agent any
